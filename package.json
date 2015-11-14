@@ -1,0 +1,45 @@
+{
+  "name": "react-gridforms",
+  "description": "React components for data entry which can be beautiful",
+  "version": "1.0.0",
+  "main": "lib/index.js",
+  "jsnext:main": "src/index.js",
+  "global": "GridForms",
+  "externals": {
+    "react": "React"
+  },
+  "homepage": "https://github.com/insin/react-gridforms",
+  "license": "MIT",
+  "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
+  "scripts": {
+    "test": "nwb test"
+  },
+  "files": [
+    "lib",
+    "src",
+    "umd",
+    "vendor"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "react": ">=0.14.0"
+  },
+  "devDependencies": {
+    "nwb": "*",
+    "react": "0.14.2",
+    "react-dom": "0.14.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/insin/react-gridforms.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "responsive",
+    "grid",
+    "forms",
+    "gridforms"
+  ]
+}
