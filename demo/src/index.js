@@ -6,7 +6,125 @@ import {render} from 'react-dom'
 import {GridForm, Fieldset, Row, Field} from '../../src'
 
 let App = () => <div className="App">
+  <h1><a href="https://github.com/insin/react-gridforms">react-gridforms</a> Demo</h1>
+  <ProductForm/>
   <BankApplicationForm/>
+</div>
+
+let ProductForm = () => <div>
+  <h2>Product Form</h2>
+  <GridForm>
+    <Fieldset legend="Add to inventory">
+      <Row>
+        <Field span={3}>
+          <label>Product Name</label>
+          <input type="text" autofocus/>
+        </Field>
+        <Field>
+          <label>Tags</label>
+          <input type="text"/>
+        </Field>
+      </Row>
+      <Row>
+        <Field>
+          <label>Vendor</label>
+          <select>
+            <option>Select a vendor</option>
+            <option>ted</option>
+            <option>Magna Phasellus Dolor Incorporated</option>
+            <option>Fames Ac Turpis Inc.</option>
+            <option>Eu Eros Institute</option>
+            <option>Suspendisse Sagittis Associates</option>
+            <option>Tempor Lorem PC</option>
+            <option>Nulla Facilisi Sed PC</option>
+            <option>Dignissim Corp.</option>
+            <option>Blandit Ltd</option>
+            <option>Dapibus Gravida Aliquam LLP</option>
+            <option>Cursus A Inc.</option>
+            <option>Tellus PC</option>
+            <option>Fusce Mi Foundation</option>
+            <option>Dictum Sapien Aenean Associates</option>
+            <option>In Tincidunt PC</option>
+            <option>Sapien Aenean Ltd</option>
+            <option>Libero Foundation</option>
+            <option>Egestas Rhoncus Proin Corp.</option>
+            <option>Feugiat Nec Diam Institute</option>
+            <option>Turpis Foundation</option>
+            <option>Pede Malesuada Vel Associates</option>
+            <option>Eget Venenatis A PC</option>
+            <option>Mollis Vitae Corporation</option>
+            <option>Gravida Mauris Incorporated</option>
+            <option>Tortor Consulting</option>
+            <option>Habitant Morbi Tristique Corporation</option>
+            <option>Enim Corp.</option>
+            <option>Sed Turpis Nec LLC</option>
+            <option>Enim Foundation</option>
+            <option>Tincidunt Orci Quis Institute</option>
+            <option>Lectus Pede LLC</option>
+            <option>Class Corporation</option>
+            <option>Erat Volutpat Nulla LLP</option>
+            <option>Sed LLC</option>
+            <option>Justo Faucibus Associates</option>
+            <option>Vel Turpis Foundation</option>
+            <option>Tellus Aenean Limited</option>
+            <option>Tempus Scelerisque Corporation</option>
+            <option>Eleifend LLP</option>
+            <option>A Felis Ullamcorper Company</option>
+            <option>Neque Non LLC</option>
+            <option>Nibh Donec Est PC</option>
+          </select>
+        </Field>
+        <Field>
+          <label>Product Type</label>
+          <select>
+            <option>Select a product type</option>
+            <option>et magnis</option>
+            <option>Vivamus rhoncus.</option>
+            <option>egestas ligula.</option>
+            <option>nulla. Cras</option>
+            <option>Proin mi.</option>
+            <option>turpis non</option>
+            <option>ante ipsum</option>
+            <option>arcu. Curabitur</option>
+            <option>ante. Maecenas</option>
+            <option>magna. Phasellus</option>
+            <option>Suspendisse aliquet,</option>
+            <option>purus gravida</option>
+            <option>ac risus.</option>
+            <option>mollis non,</option>
+          </select>
+        </Field>
+      </Row>
+      <Row>
+        <Field>
+          <label>Product Description</label>
+          <textarea></textarea>
+        </Field>
+      </Row>
+      <Row>
+        <Field>
+          <label>SKU</label>
+          <input type="text"/>
+        </Field>
+        <Field>
+          <label>Initial Stock Level</label>
+          <input type="text"/>
+        </Field>
+        <Field>
+          <label>Cost Price</label>
+          <input type="text"/>
+        </Field>
+        <Field>
+          <label>Wholesale Price</label>
+          <input type="text"/>
+        </Field>
+        <Field>
+          <label>Retail Price</label>
+          <input type="text"/>
+        </Field>
+      </Row>
+    </Fieldset>
+  </GridForm>
 </div>
 
 let BankApplicationForm = () => <div>
