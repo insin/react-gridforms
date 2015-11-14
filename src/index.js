@@ -1,6 +1,6 @@
 import '../vendor/gridforms.css'
 
-import React, {cloneElement, Children, PropTypes} from 'react'
+import React, {Children, PropTypes} from 'react'
 
 let classNames = (...args) => args.filter(cn => !!cn).join(' ')
 
@@ -30,10 +30,10 @@ export let Fieldset = React.createClass({
 
 export let Row = React.createClass({
   render() {
-    let {children, className} = this.props
+    let {children, ...props} = this.props
     let span = 0
     Children.forEach(children, child => span += Number(child.props.span))
-    return <div data-row-span={span} className={className}>
+    return <div {...props} data-row-span={span}>
       {children}
     </div>
   }
@@ -52,9 +52,9 @@ export let Field = React.createClass({
     }
   },
   render() {
-    let {children, className, span} = this.props
-   return <div data-field-span={span} className={className}>
-     {children}
-   </div>
+    let {children, span, ...props} = this.props
+    return <div {...props} data-field-span={span}>
+      {children}
+    </div>
   }
 })
