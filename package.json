@@ -12,6 +12,7 @@
   "license": "MIT",
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "scripts": {
+    "start": "heatpack demo/src/index.js",
     "test": "nwb test"
   },
   "files": [
