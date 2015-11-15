@@ -18,7 +18,7 @@ let ProductForm = () => <div>
       <Row>
         <Field span={3}>
           <label>Product Name</label>
-          <input type="text" autofocus/>
+          <input type="text" autoFocus/>
         </Field>
         <Field>
           <label>Tags</label>
@@ -134,7 +134,7 @@ let BankApplicationForm = () => <div>
       <Row>
         <Field>
           <label>Branch Name</label>
-          <input type="text" autofocus/>
+          <input type="text" autoFocus/>
         </Field>
       </Row>
     </Fieldset>
