@@ -1,6 +1,6 @@
 {
   "name": "react-gridforms",
-  "description": "React components for data entry which can be beautiful",
+  "description": "React components for form layout with Gridforms",
   "version": "1.0.0",
   "main": "lib/index.js",
   "jsnext:main": "src/index.js",
