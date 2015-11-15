@@ -7,12 +7,13 @@ let classNames = (...args) => args.filter(cn => !!cn).join(' ')
 export let GridForm = React.createClass({
   getDefaultProps() {
     return {
-      component: 'form'
+      component: 'form',
+      custom: false
     }
   },
   render() {
-    let {children, className, component: Component, ...props} = this.props
-    return <Component {...props} className={classNames('grid-form', className)}>
+    let {children, className, component: Component, custom, ...props} = this.props
+    return <Component {...props} className={classNames(!custom && 'grid-form', className)}>
       {children}
     </Component>
   }
