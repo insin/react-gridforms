@@ -12,7 +12,7 @@
   "license": "MIT",
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "scripts": {
-    "start": "heatpack demo/src/index.js",
+    "start": "nwb serve-react demo/src/index.js",
     "test": "nwb test"
   },
   "files": [
@@ -27,7 +27,7 @@
     "react": ">=0.14.0"
   },
   "devDependencies": {
-    "nwb": "*",
+    "nwb": ">=0.0.6",
     "react": "0.14.2",
     "react-addons-test-utils": "0.14.2",
     "react-dom": "0.14.2"
