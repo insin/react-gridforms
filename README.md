@@ -1,8 +1,8 @@
 # react-gridforms
 
 [![Travis][build-badge]][build]
-[![Codecov][coverage-badge]][coverage]
 [![npm package][npm-badge]][npm]
+[![Coveralls][coveralls-badge]][coveralls]
 
 React components for form layout with [Gridforms](https://github.com/kumailht/gridforms).
 
@@ -89,11 +89,12 @@ Prop | Default | Description
 
 ## MIT Licensed
 
-[build-badge]: https://img.shields.io/travis/insin/react-gridforms/master.svg
+
+[build-badge]: https://img.shields.io/travis/insin/react-gridforms/master.svg?style=flat-square
 [build]: https://travis-ci.org/insin/react-gridforms
 
-[coverage-badge]: https://img.shields.io/codecov/c/github/insin/react-gridforms.svg
-[coverage]: https://codecov.io/github/insin/react-gridforms
-
-[npm-badge]: https://img.shields.io/npm/v/react-gridforms.svg
+[npm-badge]: https://img.shields.io/npm/v/react-gridforms.svg?style=flat-square
 [npm]: https://www.npmjs.org/package/react-gridforms
+
+[coveralls-badge]: https://img.shields.io/coveralls/insin/react-gridforms/master.svg?style=flat-square
+[coveralls]: https://coveralls.io/github/insin/react-gridforms

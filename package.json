@@ -3,17 +3,15 @@
   "description": "React components for form layout with Gridforms",
   "version": "1.0.0",
   "main": "lib/index.js",
-  "jsnext:main": "src/index.js",
-  "global": "GridForms",
-  "externals": {
-    "react": "React"
-  },
   "homepage": "https://github.com/insin/react-gridforms",
   "license": "MIT",
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "scripts": {
-    "start": "nwb serve-react demo/src/index.js",
-    "test": "nwb test"
+    "build": "nwb build",
+    "clean": "nwb clean",
+    "lint": "eslint src tests",
+    "start": "nwb serve",
+    "test": "npm run lint && nwb test"
   },
   "files": [
     "lib",
@@ -27,10 +25,13 @@
     "react": ">=0.14.0"
   },
   "devDependencies": {
-    "nwb": ">=0.0.6",
-    "react": "0.14.2",
-    "react-addons-test-utils": "0.14.2",
-    "react-dom": "0.14.2"
+    "eslint-config-jonnybuchanan": "2.0.x",
+    "karma-tap": "1.0.3",
+    "nwb": ">0.1.0-beta <0.2",
+    "react": "0.14.3",
+    "react-addons-test-utils": "0.14.3",
+    "react-dom": "0.14.3",
+    "tape": "4.2.2"
   },
   "repository": {
     "type": "git",
