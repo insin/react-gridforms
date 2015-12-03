@@ -89,7 +89,6 @@ Prop | Default | Description
 
 ## MIT Licensed
 
-
 [build-badge]: https://img.shields.io/travis/insin/react-gridforms/master.svg?style=flat-square
 [build]: https://travis-ci.org/insin/react-gridforms
 

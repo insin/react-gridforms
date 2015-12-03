@@ -27,7 +27,7 @@
   "devDependencies": {
     "eslint-config-jonnybuchanan": "2.0.x",
     "karma-tap": "1.0.3",
-    "nwb": ">0.1.0-beta <0.2",
+    "nwb": "^0.1.0",
     "react": "0.14.3",
     "react-addons-test-utils": "0.14.3",
     "react-dom": "0.14.3",
