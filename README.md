@@ -27,9 +27,9 @@ Browser bundles are available, which export a global `GridForms` variable and ex
 ```javascript
 var GridForms = require('react-gridforms')
 // or
-var {Gridform, Fieldset, Row, Field} = require('react-gridforms')
+var {GridForm, Fieldset, Row, Field} = require('react-gridforms')
 // or
-import {Gridform, Fieldset, Row, Field} from 'react-gridforms'
+import {GridForm, Fieldset, Row, Field} from 'react-gridforms'
 ```
 
 Nest `<Fieldset>`, `<Row>` and `<Field>` components under a `<GridForm>` as necessary, using a `span` prop to control the relative size of each field.
