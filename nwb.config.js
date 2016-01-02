@@ -10,8 +10,10 @@ module.exports = {
     ]
   },
   // UMD build config
+  umd: true,
   global: 'GridForms',
   externals: {
     'react': 'React'
-  }
+  },
+  jsNext: true
 }

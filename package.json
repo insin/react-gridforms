@@ -7,15 +7,14 @@
   "license": "MIT",
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
   "scripts": {
-    "build": "nwb build",
-    "clean": "nwb clean",
+    "build": "npm run lint && nwb build",
     "lint": "eslint src tests",
     "start": "nwb serve",
-    "test": "npm run lint && nwb test"
+    "test": "npm run build && nwb test"
   },
   "files": [
+    "es6",
     "lib",
-    "src",
     "umd",
     "vendor"
   ],
@@ -27,11 +26,11 @@
   "devDependencies": {
     "eslint-config-jonnybuchanan": "2.0.x",
     "karma-tap": "1.0.3",
-    "nwb": "^0.1.0",
-    "react": "0.14.3",
-    "react-addons-test-utils": "0.14.3",
-    "react-dom": "0.14.3",
-    "tape": "4.2.2"
+    "nwb": "0.6.x",
+    "react": "0.14.x",
+    "react-addons-test-utils": "0.14.x",
+    "react-dom": "0.14.x",
+    "tape": "4.4.0"
   },
   "repository": {
     "type": "git",
