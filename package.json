@@ -1,8 +1,9 @@
 {
   "name": "react-gridforms",
   "description": "React components for form layout with Gridforms",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/index.js",
+  "jsnext:main": "es6/index.js",
   "homepage": "https://github.com/insin/react-gridforms",
   "license": "MIT",
   "author": "Jonny Buchanan <jonathan.buchanan@gmail.com>",
