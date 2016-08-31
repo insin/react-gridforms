@@ -18,8 +18,8 @@ npm install react-gridforms
 
 Browser bundles are available, which export a global `GridForms` variable and expect to find a global ``React`` variable to work with.
 
-* [react-gridforms.js](https://npmcdn.com/react-gridforms/umd/react-gridforms.js) (development version)
-* [react-gridforms.min.js](https://npmcdn.com/react-gridforms/umd/react-gridforms.min.js) (compressed production version)
+* [react-gridforms.js](https://unpkg.com/react-gridforms/umd/react-gridforms.js) (development version)
+* [react-gridforms.min.js](https://unpkg.com/react-gridforms/umd/react-gridforms.min.js) (compressed production version)
 * Use [gridforms.css](https://cdn.rawgit.com/kumailht/gridforms/master/gridforms/gridforms.css) via RawGit with the browser bundle.
 
 ## Usage
